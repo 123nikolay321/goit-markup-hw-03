@@ -232,7 +232,8 @@ h6 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-title);
-  margin-bottom: 72px;
+  margin-bottom: 72px; 
+  border-radius: 0px 0px 4px 4px;
 }
 
 .subtitle {
