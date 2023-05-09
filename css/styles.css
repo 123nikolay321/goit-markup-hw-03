@@ -12,24 +12,29 @@
   --color-footer-logo: #f4f4fd;
   --gap: 24px;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-text);
   font-style: normal;
 }
+
 a {
   text-decoration: none;
 }
+
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
+
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
 p,
 h1,
 h2,
@@ -39,6 +44,7 @@ h5,
 h6 {
   margin: 0;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -51,12 +57,14 @@ h6 {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .container {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
+
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -66,6 +74,7 @@ h6 {
   padding: 24px 0;
   border-bottom: 1px solid var(--color-border);
 }
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -74,22 +83,29 @@ h6 {
   color: var(--color-logo);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px
 }
+
 .header-logo {
   color: var(--color-title);
 }
+
 .header-wrap {
   display: flex;
   justify-content: space-between;
 }
+
 .header-nav {
   display: flex;
+  align-items: center;
 }
+
 .heder-nav-list {
   display: flex;
   gap: 40px;
   margin-left: 76px;
 }
+
 .contacts-list {
   display: flex;
   gap: 40px;
@@ -101,8 +117,10 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-title);
-  padding: 16px 0px;
+
+  padding: 24px 0 24px
 }
+
 .heder-nav-link:hover,
 .heder-nav-link:focus {
   color: var(--color-btn-bgd-accent);
@@ -116,6 +134,7 @@ h6 {
   letter-spacing: 0.02em;
   color: var(--color-text);
 }
+
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--color-btn-bgd-accent);
@@ -137,6 +156,7 @@ h6 {
   color: var(--color-text-accent);
   margin: 0 auto 48px;
 }
+
 .hero-btn {
   background: var(--color-btn-text);
   border: none;
@@ -151,7 +171,9 @@ h6 {
   display: block;
   margin: 0 auto;
   padding: 16px 32px;
+  min-width: 169px
 }
+
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--color-btn-bgd-accent);
@@ -161,9 +183,11 @@ h6 {
   display: flex;
   gap: var(--gap);
 }
+
 .feature-item {
   width: calc((100% - 3 * 24px) / 4);
 }
+
 .product {
   padding-top: 0;
 }
@@ -173,6 +197,7 @@ h6 {
   gap: var(--gap);
   margin-top: 74px;
 }
+
 .product-item {
   width: calc((100% - 2 * 24px) / 3);
 }
@@ -180,20 +205,24 @@ h6 {
 .team {
   background: var(--color-btn-bgd);
 }
+
 .team-list {
   display: flex;
   gap: var(--gap);
   margin-top: 72px;
 }
+
 .teamm-ite {
   width: calc((100% - 3 * 24px) / 4);
 }
+
 .card-description {
   padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
   background-color: var(--color-text-accent);
   text-align: center;
 }
+
 .title {
   font-size: 36px;
   line-height: 1.11;
@@ -202,6 +231,7 @@ h6 {
   text-transform: capitalize;
   color: var(--color-title);
 }
+
 .subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -210,6 +240,7 @@ h6 {
   color: var(--color-title);
   margin-bottom: 8px;
 }
+
 .text {
   font-size: 16px;
   line-height: 1.5;
@@ -220,6 +251,7 @@ h6 {
   padding-top: 96px;
   padding-bottom: 120px;
 }
+
 .gallery-filters-list {
   display: flex;
   gap: var(--gap);
@@ -240,6 +272,7 @@ h6 {
   cursor: pointer;
   padding: 12px 24px;
 }
+
 .gallery-filters-btn:hover,
 .gallery-filters-btn:focus {
   background: var(--color-btn-bgd-accent);
@@ -252,15 +285,18 @@ h6 {
   column-gap: var(--gap);
   row-gap: calc(var(--gap) * 2);
 }
+
 .gallery-item {
   width: calc((100% - 24px * 2) / 3);
 }
+
 .gallery-description {
   border: 1px solid var(--color-border);
   border-top: none;
   padding: 32px 0 32px 16px;
   background-color: var(--color-text-accent);
 }
+
 .gallery-list-title {
   font-weight: 500;
   font-size: 20px;
@@ -269,20 +305,24 @@ h6 {
   color: var(--color-title);
   margin-bottom: 8px;
 }
+
 .gallery-list-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text);
 }
+
 .footer {
   background-color: var(--color-bgd);
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .footer-logo {
   color: var(--color-footer-logo);
 }
+
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
