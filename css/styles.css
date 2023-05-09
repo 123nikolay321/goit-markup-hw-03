@@ -214,6 +214,7 @@ h6 {
 
 .teamm-ite {
   width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .card-description {
@@ -230,6 +231,7 @@ h6 {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-title);
+  margin-bottom: 72px;
 }
 
 .subtitle {
@@ -317,6 +319,11 @@ h6 {
   background-color: var(--color-bgd);
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo {
