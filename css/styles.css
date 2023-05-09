@@ -117,6 +117,7 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-title);
+
   padding: 24px 0 24px
 }
 
@@ -199,7 +200,6 @@ h6 {
 
 .product-item {
   width: calc((100% - 2 * 24px) / 3);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .team {
@@ -224,7 +224,7 @@ h6 {
 }
 
 .title {
-  margin-bottom: 72px;
+  
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -234,6 +234,7 @@ h6 {
 }
 
 .subtitle {
+  border-radius: 0px 0px 4px 4px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
