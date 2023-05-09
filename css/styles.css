@@ -117,7 +117,6 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-title);
-
   padding: 24px 0 24px
 }
 
@@ -200,6 +199,7 @@ h6 {
 
 .product-item {
   width: calc((100% - 2 * 24px) / 3);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team {
@@ -214,7 +214,6 @@ h6 {
 
 .teamm-ite {
   width: calc((100% - 3 * 24px) / 4);
-  border-radius: 0px 0px 4px 4px;
 }
 
 .card-description {
@@ -225,13 +224,13 @@ h6 {
 }
 
 .title {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-title);
-  margin-bottom: 72px;
 }
 
 .subtitle {
@@ -319,11 +318,6 @@ h6 {
   background-color: var(--color-bgd);
   padding-top: 100px;
   padding-bottom: 100px;
-}
-
-.logo {
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-logo {
