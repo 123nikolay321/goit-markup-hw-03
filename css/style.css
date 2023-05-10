@@ -224,11 +224,6 @@ img {
     color: var(--pressed-state-color);
 }
 
-.logo {
-    display: inline-block;
-    margin-bottom: 16px;
-}
-
 /** ---------------------- Footer ---------------------- */
 
 .footer {
@@ -238,11 +233,8 @@ img {
     padding-bottom: 100px;
 }
 
-
-
 .footer .logo {
     padding: 0;
-
 }
 
 .part-logo-footer {
@@ -400,11 +392,7 @@ img {
     color: var(--white-color);
     background-color: var(--pressed-state-color);
     border-color: transparent;
-    border: 1px solid transparent
-    
 }
-
-
 
 /** ---------------------- Portfolio Cards ---------------------- */
 
