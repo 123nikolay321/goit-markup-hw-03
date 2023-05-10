@@ -289,6 +289,7 @@ img {
 .hero .btn:focus {
     color: var(--white-color);
     background-color: var(--pressed-state-color);
+
 }
 
 /** ---------------------- Section1: Featuress ---------------------- */
@@ -385,6 +386,7 @@ img {
     border: 1px solid var(--accent-color);
 
     padding: 12px 24px;
+    border: 1px solid transparent
 }
 
 .filter-btns .btn:hover,
@@ -393,6 +395,7 @@ img {
     background-color: var(--pressed-state-color);
     border-color: transparent;
     border: 1px solid transparent
+   
 }
 
 /** ---------------------- Portfolio Cards ---------------------- */
