@@ -4,209 +4,149 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PORTFOLIO</title>
-    <link rel="icon" href="./icon.jpg" type="image/jpg" />
+    <title>Studio</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!-- HEADER -->
-    <header class="header">
-      <div class="container">
-        <nav class="header-nav">
+    <header class="page-header">
+      <div class="container page-header-container">
+        <nav class="page-nav">
           <a class="link logo" href="./index.html"
-            >Web<span class="part-logo-header">Studio</span></a
+            >Web<span class="logo-studio-light-bg">Studio</span></a
           >
-          <ul class="header-list list">
-            <li class="item">
-              <a class="nav link" href="./index.html">Studio</a>
-            </li>
-            <li class="item">
-              <a class="nav link current" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="item"><a class="nav link" href="">Contacts</a></li>
+          <ul class="list menu">
+            <li><a class="link menu-item" href="./index.html">Studio</a></li>
+            <li><a class="link menu-item" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="link menu-item" href="">Contacts</a></li>
           </ul>
         </nav>
-
-        <!-- ADDRESS -->
-        <address class="address-container">
-          <ul class="list contacts-list">
-            <li class="item">
-              <a class="contact link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+        <address class="page-adress">
+          <ul class="list header-adress-list">
+            <li>
+              <a class="link adress-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li class="item">
-              <a class="contact link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
+            <li><a class="link adress-item" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
           </ul>
         </address>
       </div>
     </header>
-
-    <!-- PORTFOLIO -->
     <main>
       <section class="portfolio">
         <div class="container">
-          <h1 class="section-title visually-hidden">Portfolio</h1>
-          <ul class="list filter-btns">
-            <li class="item"><button class="btn" type="button">All</button></li>
-            <li class="item">
-              <button class="btn" type="button">Web Site</button>
-            </li>
-            <li class="item"><button class="btn" type="button">App</button></li>
-            <li class="item">
-              <button class="btn" type="button">Design</button>
-            </li>
-            <li class="item">
-              <button class="btn" type="button">Marketing</button>
-            </li>
+          <h1 class="visually-hidden">portfolio</h1>
+          <ul class="list portfolio-button-container">
+            <li><button class="portfolio-button" type="button">All</button></li>
+            <li><button class="portfolio-button" type="button">Web Site</button></li>
+            <li><button class="portfolio-button" type="button">App</button></li>
+            <li><button class="portfolio-button" type="button">Design</button></li>
+            <li><button class="portfolio-button" type="button">Marketing</button></li>
           </ul>
 
-          <ul class="example-cards list">
-            <li class="card">
-              <a class="link" href="#">
+          <ul class="list projekt-cerds-list">
+            <li class="project-card">
+              <a class="link" href="">
                 <img
-                  class="card-img"
-                  src="./images/portfolio/portfolio1-1.jpg"
-                  alt="Banking App Interface Concept"
+                  src="./images/portfolio/banking-interface.jpg"
+                  alt="banking interface"
                   width="360"
-                  height="300"
                 />
-                <div class="card-content">
-                  <h2 class="card-title">Banking App Interface Concept</h2>
-                  <p class="text desc">App</p>
+                <div class="projekt-cerds-text-content">
+                  <h2 class="subtitle">Banking App Interface Concept</h2>
+                  <p class="main-txt-style">App</p>
                 </div>
               </a>
             </li>
-            <li class="card">
-              <a class="link" href="#">
+            <li class="project-card">
+              <a class="link" href="">
                 <img
-                  class="card-img"
-                  src="./images/portfolio/portfolio1-2.jpg"
-                  alt="Cashless Payment"
+                  src="./images/portfolio/casless-payment.jpg"
+                  alt="bank terminal and phone"
                   width="360"
-                  height="300"
                 />
-                <div class="card-content">
-                  <h2 class="card-title">Cashless Payment</h2>
-                  <p class="text desc">Marketing</p>
+                <div class="projekt-cerds-text-content">
+                  <h2 class="subtitle">Cashless Payment</h2>
+                  <p class="main-txt-style">Marketing</p>
                 </div>
               </a>
             </li>
-            <li class="card">
-              <a class="link" href="#">
+            <li class="project-card">
+              <a class="link" href="">
                 <img
-                  class="card-img"
-                  src="./images/portfolio/portfolio1-3.jpg"
-                  alt="Meditaion App"
+                  src="./images/portfolio/meditation-app.jpg"
+                  alt="phone and notebook"
                   width="360"
-                  height="300"
                 />
-                <div class="card-content">
-                  <h2 class="card-title">Meditaion App</h2>
-                  <p class="text desc">App</p>
+                <div class="projekt-cerds-text-content">
+                  <h2 class="subtitle">Meditation App</h2>
+                  <p class="main-txt-style">App</p>
                 </div>
               </a>
             </li>
-            <li class="card">
-              <a class="link" href="#">
-                <img
-                  class="card-img"
-                  src="./images/portfolio/portfolio2-1.jpg"
-                  alt="Taxi Service"
-                  width="360"
-                  height="300"
-                />
-                <div class="card-content">
-                  <h2 class="card-title">Taxi Service</h2>
-                  <p class="text desc">Marketing</p>
+            <li class="project-card">
+              <a class="link" href="">
+                <img src="./images/portfolio/taxi.jpg" alt="car" width="360" />
+                <div class="projekt-cerds-text-content">
+                  <h2 class="subtitle">Taxi Service</h2>
+                  <p class="main-txt-style">Marketing</p>
                 </div>
               </a>
             </li>
-            <li class="card">
-              <a class="link" href="#">
+            <li class="project-card">
+              <a class="link" href="">
                 <img
-                  class="card-img"
-                  src="./images/portfolio/portfolio2-2.jpg"
-                  alt="Screen Illustrations"
+                  src="./images/portfolio/screen-illustrations.jpg"
+                  alt="phone and pictures"
                   width="360"
-                  height="300"
                 />
-                <div class="card-content">
-                  <h2 class="card-title">Screen Illustrations</h2>
-                  <p class="text desc">Design</p>
+                <div class="projekt-cerds-text-content">
+                  <h2 class="subtitle">Screen Illustrations</h2>
+                  <p class="main-txt-style">Design</p>
                 </div>
               </a>
             </li>
-            <li class="card">
-              <a class="link" href="#">
-                <img
-                  class="card-img"
-                  src="./images/portfolio/portfolio2-3.jpg"
-                  alt="Online Courses"
-                  width="360"
-                  height="300"
-                />
-                <div class="card-content">
-                  <h2 class="card-title">Online Courses</h2>
-                  <p class="text desc">Marketing</p>
+            <li class="project-card">
+              <a class="link" href="">
+                <img src="./images/portfolio/courses.jpg" alt="girl with phone" width="360" />
+                <div class="projekt-cerds-text-content">
+                  <h2 class="subtitle">Online Courses</h2>
+                  <p class="main-txt-style">Marketing</p>
                 </div>
               </a>
             </li>
-            <li class="card">
-              <a class="link" href="#">
-                <img
-                  class="card-img"
-                  src="./images/portfolio/portfolio3-1.jpg"
-                  alt="Instagram Stories Concept"
-                  width="360"
-                  height="300"
-                />
-                <div class="card-content">
-                  <h2 class="card-title">Instagram Stories Concept</h2>
-                  <p class="text desc">Design</p>
+            <li class="project-card">
+              <a class="link" href="">
+                <img src="./images/portfolio/instagram.jpg" alt="instagram photo" width="360" />
+                <div class="projekt-cerds-text-content">
+                  <h2 class="subtitle">Instagram Stories Concept</h2>
+                  <p class="main-txt-style">Design</p>
                 </div>
               </a>
             </li>
-            <li class="card">
-              <a class="link" href="#">
-                <img
-                  class="card-img"
-                  src="./images/portfolio/portfolio3-2.jpg"
-                  alt="Organic Food"
-                  width="360"
-                  height="300"
-                />
-                <div class="card-content">
-                  <h2 class="card-title">Organic Food</h2>
-                  <p class="text desc">Web Site</p>
+            <li class="project-card">
+              <a class="link" href="">
+                <img src="./images/portfolio/food.jpg" alt="woman with vegetables" width="360" />
+                <div class="projekt-cerds-text-content">
+                  <h2 class="subtitle">Organic Food</h2>
+                  <p class="main-txt-style">Web Site</p>
                 </div>
               </a>
             </li>
-            <li class="card">
-              <a class="link" href="#">
-                <img
-                  class="card-img"
-                  src="./images/portfolio/portfolio3-3.jpg"
-                  alt="Fresh Coffee"
-                  width="360"
-                  height="300"
-                />
-                <div class="card-content">
-                  <h2 class="card-title">Fresh Coffee</h2>
-                  <p class="text desc">Web Site</p>
+            <li class="project-card">
+              <a class="link" href="">
+                <img src="./images/portfolio/coffee.jpg" alt="coffee cup" width="360" />
+                <div class="projekt-cerds-text-content">
+                  <h2 class="subtitle">Fresh Coffee</h2>
+                  <p class="main-txt-style">Web Site</p>
                 </div>
               </a>
             </li>
@@ -214,16 +154,14 @@
         </div>
       </section>
     </main>
-
-    <!-- FOOTER -->
     <footer class="footer">
       <div class="container">
-        <a class="logo link" href="./index.html"
-          >Web<span class="part-logo-footer">Studio</span></a
+        <a class="link logo logo-footer" href="./index.html"
+          >Web<span class="logo-studio-dark-bg">Studio</span></a
         >
-        <p class="text">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
+        <p class="footer-discription">
+          Increase the flow of customers and sales for your business with digital marketing & growth
+          solutions.
         </p>
       </div>
     </footer>

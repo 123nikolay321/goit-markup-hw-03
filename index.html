@@ -4,209 +4,144 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>goit-markup-hw-03</title>
+    <title>Studio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <!--HEADER-->
-    <header class="header">
-      <div class="container">
-        <nav class="header-nav">
+    <header class="page-header">
+      <div class="container page-header-container">
+        <nav class="page-nav">
           <a class="link logo" href="./index.html"
-            >Web<span class="part-logo-header">Studio</span></a
+            >Web<span class="logo-studio-light-bg">Studio</span></a
           >
-          <ul class="header-list list">
-            <li class="item">
-              <a class="nav link current" href="./index.html">Studio</a>
-            </li>
-            <li class="item">
-              <a class="nav link" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="item"><a class="nav link" href="">Contacts</a></li>
+          <ul class="list menu">
+            <li><a class="link menu-item" href="./index.html">Studio</a></li>
+            <li><a class="link menu-item" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="link menu-item" href="">Contacts</a></li>
           </ul>
         </nav>
-
-        <!-- ADDRESS -->
-        <address class="address-container">
-          <ul class="list contacts-list">
-            <li class="item">
-              <a class="contact link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+        <address class="page-adress">
+          <ul class="list header-adress-list">
+            <li>
+              <a class="link adress-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li class="item">
-              <a class="contact link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
+            <li><a class="link adress-item" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
           </ul>
         </address>
       </div>
     </header>
-
     <main>
-      <!-- HERO -->
       <section class="hero">
         <div class="container">
-          <h1 class="section-title">Effective Solutions for Your Business</h1>
-          <button class="btn btn-primary" type="button">Order Service</button>
+          <h1 class="main-page-title">Effective Solutions for Your Business</h1>
+          <button class="hero-button" type="button">Order Service</button>
         </div>
       </section>
-
-      <!-- HIDDEN -->
-      <section class="featuress">
+      <section class="section">
         <div class="container">
-          <h2 class="section-title visually-hidden">Featuress</h2>
-          <ul class="featuress-list list">
-            <li class="item">
-              <h3 class="list-title">Strategy</h3>
-              <p class="text">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
+          <h2 class="secondary-title visually-hidden">Features</h2>
+          <ul class="list features-container">
+            <li class="features-list-item">
+              <h3 class="subtitle">Strategy</h3>
+              <p class="features-item-description">
+                Our goal is to identify the business problem to walk away with the perfect and
+                creative solution.
               </p>
             </li>
-            <li class="item">
-              <h3 class="list-title">Punctuality</h3>
-              <p class="text">
-                Bring the key message to the brand's audience for the best price
-                within the shortest possible time.
+            <li class="features-list-item">
+              <h3 class="subtitle">Punctuality</h3>
+              <p class="features-item-description">
+                Bring the key message to the brand's audience for the best price within the shortest
+                possible time.
               </p>
             </li>
-            <li class="item">
-              <h3 class="list-title">Diligence</h3>
-              <p class="text">
-                Research and confirm brands that present the strongest digital
-                growth opportunities and minimize risk.
+            <li class="features-list-item">
+              <h3 class="subtitle">Diligence</h3>
+              <p class="features-item-description">
+                Research and confirm brands that present the strongest digital growth opportunities
+                and minimize risk.
               </p>
             </li>
-            <li class="item">
-              <h3 class="list-title">Technologies</h3>
-              <p class="text">
-                Design practice focused on digital experiences. We bring forth a
-                deep passion for problem-solving.
+            <li class="features-list-item">
+              <h3 class="subtitle">Technologies</h3>
+              <p class="features-item-description">
+                Design practice focused on digital experiences. We bring forth a deep passion for
+                problem-solving.
               </p>
             </li>
           </ul>
         </div>
       </section>
-
-      <!-- WE-DOING -->
-      <section class="example">
+      <section class="products-section">
         <div class="container">
-          <h2 class="section-title">What are we doing</h2>
-          <ul class="example-list list">
-            <li>
-              <img
-                class="img"
-                src="./images/do/img_1.jpg"
-                alt="Website dashboard on the computer"
-                width="360"
-                height="300"
-              />
+          <h2 class="secondary-title">What Are We Doing</h2>
+          <ul class="list products-list">
+            <li class="products-list-item">
+              <img src="./images/monitor.jpg" alt="monitor" width="360" />
             </li>
-            <li>
-              <img
-                class="img"
-                src="./images/do/img_2.jpg"
-                alt="Display of the program on the phone"
-                width="360"
-                height="300"
-              />
+            <li class="products-list-item">
+              <img src="./images/mobile-phone.jpg" alt="mmobile phone" width="360" />
             </li>
-            <li>
-              <img
-                class="img"
-                src="./images/do/img_3.jpg"
-                alt="Website on telephone and computer"
-                width="360"
-                height="300"
-              />
+            <li class="products-list-item">
+              <img src="./images/phone-and-notebook.jpg" alt="phone and notebook" width="360" />
             </li>
           </ul>
         </div>
       </section>
-
-      <!-- TEAM -->
-      <section class="team">
+      <section class="team-section section">
         <div class="container">
-          <h2 class="section-title">Our Team</h2>
-          <ul class="team-cards list">
-            <li class="card">
-              <img
-                class="card-img"
-                src="./images/team/mark-guerrero.jpg"
-                alt="People - Mark Guerrero"
-                width="264"
-                height="260"
-              />
-              <div class="card-content">
-                <h3 class="card-title">Mark Guerrero</h3>
-                <p class="text desc">Product Designer</p>
+          <h2 class="secondary-title">Our Team</h2>
+          <ul class="list team-list">
+            <li class="team-list-item">
+              <img src="./images/Mark.jpg" alt=" man" width="264" />
+              <div class="team-list-text-content">
+                <h3 class="subtitle">Mark Guerrero</h3>
+                <p class="team-item-description">Product Designer</p>
               </div>
             </li>
-            <li class="card">
-              <img
-                class="card-img"
-                src="./images/team/tom-ford.jpg"
-                alt="People - Tom Ford"
-                width="264"
-                height="260"
-              />
-              <div class="card-content">
-                <h3 class="card-title">Tom Ford</h3>
-                <p class="text desc">Frontend Developer</p>
+            <li class="team-list-item">
+              <img src="./images/Tom.jpg" alt="man" width="264" />
+              <div class="team-list-text-content">
+                <h3 class="subtitle">Tom Ford</h3>
+                <p class="team-item-description">Frontend Developer</p>
               </div>
             </li>
-            <li class="card">
-              <img
-                class="card-img"
-                src="./images/team/camila-garcia.jpg"
-                alt=" People - Camila Garcia"
-                width="264"
-                height="260"
-              />
-              <div class="card-content">
-                <h3 class="card-title">Camila Garcia</h3>
-                <p class="text desc">Marketing</p>
+            <li class="team-list-item">
+              <img src="./images/Camila.jpg" alt="woman" width="264" />
+              <div class="team-list-text-content">
+                <h3 class="subtitle">Camila Garcia</h3>
+                <p class="team-item-description">Marketing</p>
               </div>
             </li>
-            <li class="card">
-              <img
-                class="card-img"
-                src="./images/team/daniel-wilson.jpg"
-                alt="People - Daniel Wilson"
-                width="264"
-                height="260"
-              />
-              <div class="card-content">
-                <h3 class="card-title">Daniel Wilson</h3>
-                <p class="text desc">UI Designer</p>
+            <li class="team-list-item">
+              <img src="./images/Daniel.jpg" alt="man" width="264" />
+              <div class="team-list-text-content">
+                <h3 class="subtitle">Daniel Wilson</h3>
+                <p class="team-item-description">UI Designer</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
-
-    <!-- FOOTER -->
     <footer class="footer">
       <div class="container">
-        <a class="logo link" href="./index.html"
-          >Web<span class="part-logo-footer">Studio</span></a
+        <a class="link logo logo-footer" href="./index.html"
+          >Web<span class="logo-studio-dark-bg">Studio</span></a
         >
-        <p class="text">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
+        <p class="footer-discription">
+          Increase the flow of customers and sales for your business with digital marketing & growth
+          solutions.
         </p>
       </div>
     </footer>
